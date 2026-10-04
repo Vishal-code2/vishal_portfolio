@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vishal — Web Developer</title>
+<meta name="description" content="Vishal — Web Developer & Frontend Developer building responsive, user-friendly web applications.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="vishal-portfolio.css">
+</head>
+<body>
+
+<div id="loader"><div class="loader-mark"><span class="dot"></span> loading portfolio</div></div>
+
+<div class="field" aria-hidden="true">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+</div>
+
+<header id="siteHeader">
+  <div class="wrap">
+    <nav>
+      <a href="#top" class="logo">Vishal</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact" class="nav-cta">Contact Me</a></li>
+      </ul>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="kicker">available for opportunities</div>
+        <h1>Hi, I'm <span class="grad">Vishal</span> —<br>I build for the web.</h1>
+        <p class="role">Web Developer · Frontend Developer</p>
+        <p class="intro">I design and build responsive, user-friendly web applications with clean interfaces and solid engineering underneath — from React front ends to full MERN-stack products.</p>
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="terminal reveal">
+        <div class="terminal-bar">
+          <span class="tdot r"></span><span class="tdot y"></span><span class="tdot g"></span>
+          <span class="fname">developer.js</span>
+        </div>
+        <div class="terminal-body" id="typeTarget"></div>
+      </div>
+    </div>
+    <div class="scroll-cue"><span>scroll</span><div class="line"></div></div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="num">01</div>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <div class="glyph">// currently</div>
+          <div class="figure"><b>B.Tech CSE</b><span>2023 – 2027</span></div>
+          <div class="figure"><b>MERN Stack</b><span>Core focus</span></div>
+          <div class="figure"><b>1</b><span>Internship completed</span></div>
+        </div>
+        <div class="about-text reveal">
+          <p>I'm a Computer Science undergraduate at <strong>Guru Gobind Singh Indraprastha University</strong>, focused on frontend engineering and full-stack web development. I like taking an interface from a rough idea to something that feels fast, clear, and genuinely easy to use.</p>
+          <p>My core stack is <strong>HTML, CSS, and JavaScript</strong> on the frontend with <strong>React</strong> for building interactive UIs, backed by <strong>Python, C++, and MongoDB</strong> for logic and data. I'm comfortable working across the stack, from REST APIs to responsive layouts, and I version everything with <strong>Git and GitHub</strong>.</p>
+          <p>Outside of coursework, I build side projects to learn things properly rather than just read about them — most recently a console-based authentication system and a hackathon hardware-software project. I'm always looking to pick up new tools and patterns that make my work better.</p>
+          <div class="tag-cluster">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+            <span class="tag">React</span><span class="tag">Python</span><span class="tag">C++</span>
+            <span class="tag">MongoDB</span><span class="tag">Git / GitHub</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="num">02</div>
+        <h2>Skills</h2>
+        <p>The languages, frameworks, and tools I use to take a project from idea to production.</p>
+      </div>
+      <div class="skill-groups">
+        <div class="skill-group reveal">
+          <h3><span class="dot"></span>Frontend</h3>
+          <ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li></ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3><span class="dot"></span>Programming</h3>
+          <ul><li>Python</li><li>C++</li><li>C</li></ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3><span class="dot"></span>Database</h3>
+          <ul><li>MongoDB</li><li>SQL</li></ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3><span class="dot"></span>Tools</h3>
+          <ul><li>Git</li><li>GitHub</li><li>VS Code</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="num">03</div>
+        <h2>Projects</h2>
+        <p>A couple of projects I've built to apply what I'm learning to real, working products.</p>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-media"><span class="mono">&lt;/&gt; ecommerce-app</span></div>
+          <div class="project-body">
+            <h3>E-Commerce Website</h3>
+            <p>A responsive e-commerce web application with product listings and cart functionality, built on the MERN stack with a focus on clean, user-friendly frontend design.</p>
+            <div class="stack-row">
+              <span>MongoDB</span><span>Express.js</span><span>React</span><span>Node.js</span>
+            </div>
+            <div class="project-links">
+              <a href="https://project-ecommerce-react-1.onrender.com/">Live Demo</a>
+              <a href="https://github.com/Vishal-code2/Project_ecommerce_React" class="sub">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-media"><span class="mono">&lt;/&gt; smart-attendance</span></div>
+          <div class="project-body">
+            <h3>Smart Attendance System</h3>
+            <p>A Python-based attendance management system using face recognition to mark attendance automatically, with a Streamlit interface and SQLite storage plus attendance analytics.</p>
+            <div class="stack-row">
+              <span>Python</span><span>OpenCV</span><span>Streamlit</span><span>SQLite</span>
+            </div>
+            <div class="project-links">
+              <a href="https://smartattendance-system-d8lxgrmstrqfavph5slkpg.streamlit.app/">Live Demo</a>
+              <a href="https://github.com/Vishal-code2/SmartAttendance-System" class="sub">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="num">04</div>
+        <h2>Experience &amp; Education</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="t-item reveal">
+          <div class="t-date">June — July 2025</div>
+          <h3>MERN Stack Intern</h3>
+          <div class="t-org">Coding Blocks</div>
+          <p class="desc">Built and deployed a full-stack MERN e-commerce application, developing REST APIs and integrating the frontend with backend services.</p>
+          <ul>
+            <li>Implemented product listing and add-to-cart functionality with a responsive UI</li>
+            <li>Gained hands-on experience in deployment and debugging</li>
+          </ul>
+        </div>
+
+        <div class="t-item reveal">
+          <div class="t-date">Ongoing</div>
+          <h3>Self-Directed Projects</h3>
+          <div class="t-org">Independent</div>
+          <p class="desc">Building a console-based authentication system in Python covering password hashing, input validation, and session handling — exploring security concepts like brute-force protection.</p>
+        </div>
+
+        <div class="t-item reveal">
+          <div class="t-date">College Hackathon</div>
+          <h3>Smart Color-Sensing Pen</h3>
+          <div class="t-org">Team Project</div>
+          <p class="desc">Collaborated with a team to develop and present a smart color-sensing pen concept at a college hackathon.</p>
+        </div>
+
+        <div class="t-item reveal">
+          <div class="t-date">2023 — 2027</div>
+          <h3>B.Tech, Computer Science &amp; Engineering</h3>
+          <div class="t-org">Guru Gobind Singh Indraprastha University</div>
+          <p class="desc">Coursework and projects spanning full-stack web development, data structures, and software engineering fundamentals.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact-panel reveal">
+        <h2>Have a project or opportunity in mind? Let's connect and build something great.</h2>
+        <p>I'm open to internships, freelance work, and collaborations.</p>
+        <div class="contact-methods">
+          <a href="mailto:vishalvs2904@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5h16v14H4z" stroke-linejoin="round"/><path d="M4 6l8 7 8-7" stroke-linejoin="round"/></svg>
+            Email
+          </a>
+          <a href="https://www.linkedin.com/in/vishal-733406304/?isSelfProfile=true" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7.5 10.5v6M7.5 7.5v.01M12 16.5v-4a2 2 0 0 1 4 0v4M12 12.5v4"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/Vishal-code2" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2a10 10 0 0 0-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.83-2.34 4.68-4.57 4.92.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-row">
+      <div class="footer-brand">
+        <span class="logo">vishal<span style="color:var(--teal)">.</span>dev</span>
+        <span class="tagline">building clean, responsive web experiences</span>
+      </div>
+      <div class="footer-socials">
+        <a href="mailto:vishalvs2904@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5h16v14H4z"/><path d="M4 6l8 7 8-7"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/vishal-733406304/?isSelfProfile=true" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7.5 10.5v6M7.5 7.5v.01M12 16.5v-4a2 2 0 0 1 4 0v4M12 12.5v4"/></svg>
+        </a>
+        <a href="https://github.com/Vishal-code2" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2a10 10 0 0 0-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.83-2.34 4.68-4.57 4.92.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Vishal. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="vishal-portfolio.js" ></script>
+</body>
+</html>
